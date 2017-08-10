@@ -1,3 +1,3 @@
 # hello-world
-learn how to use github
-HI~ I am Leon! I want to become a successful pepole.
+learning how to use github
+HI~ I am Leon! I want to become a successful pepole form now on.
