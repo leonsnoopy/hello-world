@@ -32,3 +32,4 @@ commit:
 	修改的話就直接不管add與commit直接下 $ git commit . -m "文字" 之後就能push上去了
 	但是如果有新增檔案的話必須要add後才可以，因為新的檔案git沒辦法抓到
 </pre>
+測試
