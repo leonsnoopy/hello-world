@@ -13,8 +13,14 @@ learning how to use git
 
 查看狀態 $ git status
 
-兩種方式更新檔案：
-	$ git add 更改的檔案名
-	$ commit $ git commit -m ""
+add：  
+	單一 $ git add 檔案
+	全部 $ git add .
+
+取消add
+	單一	$ git reset HEAD 檔案
+	全部 $ git reset HEAD .
+
+
 
 </pre>
