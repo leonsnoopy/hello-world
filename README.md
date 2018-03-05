@@ -22,5 +22,9 @@ add：
 	全部 $ git reset HEAD .
 
 commit:
-	commit $ git commit -m "文字"
+	單一 commit $ git commit 檔案 -m "文字"
+	全部 commit $ git commit -m "文字"
+
+上傳：
+	git push
 </pre>
