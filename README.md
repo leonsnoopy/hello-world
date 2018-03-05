@@ -27,4 +27,7 @@ commit:
 
 上傳：
 	git push
+
+自己開發方便密技：
+	不管add與commit 要上傳就 $ git commit . -m "文字" 就能push了
 </pre>
