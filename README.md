@@ -17,10 +17,10 @@ add：
 	單一 $ git add 檔案
 	全部 $ git add .
 
-取消add
-	單一	$ git reset HEAD 檔案
+取消add：
+	單一 $ git reset HEAD 檔案
 	全部 $ git reset HEAD .
 
-
-
+commit:
+	commit $ git commit -m "文字"
 </pre>
