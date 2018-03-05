@@ -35,6 +35,7 @@ commit
 	修改的話就直接不管add與commit直接下 $ git commit . -m "文字" 之後就能push上去了
 	但是如果有新增檔案的話必須要add後才可以，因為新的檔案git沒辦法抓到
 </pre>
+<<<<<<< HEAD
 
 <pre>
 團隊開發會遇到的事情
@@ -42,3 +43,6 @@ commit
 	push時如果沒辦法push表示遠端的檔案跟本地端的不一樣，所以必須要先pull下來比對
 	
 </pre>
+=======
+測試
+>>>>>>> af1f55bef0e32e82eecda4ec332e804737deb892
