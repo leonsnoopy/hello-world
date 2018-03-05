@@ -2,6 +2,7 @@
 learning how to use git
 <pre>
 簡單的幾個操作git的方法
+電腦必須先安裝git套件
 建立git專案
 方法1
 	如果要幫一個資料夾加入git管理，到資料夾路徑下 $ git init
@@ -33,7 +34,7 @@ commit
 
 自己開發方便密技
 	修改的話就直接不管add與commit直接下 $ git commit . -m "文字" 之後就能push上去了
-	但是如果有新增檔案的話必須要add後才可以，因為新的檔案git沒辦法抓到
+	但是如果有（測試一下修改）新增檔案的話必須要add後才可以，因為新的檔案git沒辦法抓到
 </pre>
 <<<<<<< HEAD
 
