@@ -1,7 +1,7 @@
 # hello_git
 learning how to use git
 <pre>
-簡單的幾個操作git的實用發法
+簡單的幾個操作git的方法
 建立git專案
 方法1：
 	如果要在一個資料夾下加入git管理，用console路徑到資料夾下 $ git init
