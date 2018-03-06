@@ -1,8 +1,8 @@
 # hello_git
-'
-learning how to use git
-這個是用來記錄自己使用過的git方法
-'
+
+' learning how to use git
+' 這個是用來記錄自己使用過的git方法
+
 
 # 將專案加入git控制，或是建立git專案
 ## 方法1
