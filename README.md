@@ -44,5 +44,7 @@ commit
 
 	push時如果沒辦法push表示遠端的檔案跟本地端的不一樣，會無法push
 	解決辦法必須要先pull下來做比對
+	修改好後，再次commit
+</pre>
 	
 
