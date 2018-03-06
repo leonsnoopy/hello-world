@@ -8,8 +8,10 @@
 ## 方法1
 >	新增一個全新的git專案 
 >>	$ git init [檔案]
+
 >	幫一個資料夾加入git，到資料夾路徑下 
 >>	$ git init
+
 >	資料夾就會多出一個.git的檔案，這樣之後的資料夾都可以用git來管理
 ## 方法2
 >	直接再git的網頁上(GitHub or GitLab)建立一個新的repository
