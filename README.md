@@ -1,15 +1,17 @@
 # hello_git
 learning how to use git
+這個是用來記錄自己慣用的git方法
+
 <pre>
-簡單的幾個操作git的方法
-建立git專案
+將專案加入git控制，或是建立git專案
 方法1
-	如果要幫一個資料夾加入git管理，到資料夾路徑下 $ git init
+	新增一個全新的git專案 $ git init 檔案 
+	幫一個資料夾加入git，到資料夾路徑下 $ git init
 	資料夾就會多出一個.git的檔案，這樣之後的資料夾都可以用git來管理
 方法2
-	直接再git web的網頁管理上(GitHub or GitLab)建立一個新的repository
+	直接再git的網頁上(GitHub or GitLab)建立一個新的repository
 
-從遠端下載專案到本地端 $ git clone 網址
+從遠端下載到本地端 $ git clone 網址
 
 查看git狀態 $ git status
 
@@ -24,6 +26,7 @@ add
 commit
 	單一 commit $ git commit 檔案 -m "文字"
 	全部 commit $ git commit . -m "文字"
+		commit $ git commit -am "文字"
 
 上傳到遠端
 	$ git push
@@ -35,14 +38,9 @@ commit
 	修改的話就直接不管add與commit直接下 $ git commit . -m "文字" 之後就能push上去了
 	但是如果有新增檔案的話必須要add後才可以，因為新的檔案git沒辦法抓到
 </pre>
-<<<<<<< HEAD
 
 <pre>
 團隊開發會遇到的事情
 
 	push時如果沒辦法push表示遠端的檔案跟本地端的不一樣，所以必須要先pull下來比對
-	
-</pre>
-=======
-測試
->>>>>>> af1f55bef0e32e82eecda4ec332e804737deb892
+
