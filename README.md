@@ -1,6 +1,6 @@
 # hello_git
 learning how to use git
-這個是用來記錄自己慣用的git方法
+這個是用來記錄自己使用過的git方法
 
 <pre>
 將專案加入git控制，或是建立git專案
@@ -46,11 +46,15 @@ learning how to use git
 
 新增分支
 	$ git branch [分支名稱]
-切換分之
+切換分支
 	$ git checkout [分支名稱]
 
-團隊開發會遇到的事情
+將專案新增到github上，必須要先在github上產生一個repository
+再用https or ssh 連線的方式 push 上去
+$ git remote add origin https://github.com/[GitHub帳號]/r3.git
+$ git push origin master
 
+團隊開發會遇到的事情
 	push時如果沒辦法push表示遠端的檔案跟本地端的不一樣，會無法push
 	解決辦法必須要先pull下來做比對
 	修改好後，再次commit
